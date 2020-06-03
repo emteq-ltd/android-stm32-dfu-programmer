@@ -32,7 +32,7 @@ import java.util.Iterator;
 
 public class Usb {
 
-    final static String TAG = "Umbrela Client: USB";
+    final static String TAG = "Umbrela STM32 DFU Programmer: USB";
 
     private Context mContext;
 
