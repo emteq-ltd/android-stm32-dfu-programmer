@@ -43,8 +43,9 @@ public class Usb {
     private int mDeviceVersion;
 
     /* USB DFU ID's (may differ by device) */
-    public final static int USB_VENDOR_ID = 1155;   // VID while in DFU mode 0x0483
-    public final static int USB_PRODUCT_ID = 57105; // PID while in DFU mode 0xDF11
+    // EMTEQ: VID: 0x04D8, PID: 0xEC5A
+    public final static int USB_VENDOR_ID = 0x04D8;
+    public final static int USB_PRODUCT_ID = 0xEC5A;
 
     public static final String ACTION_USB_PERMISSION = "com.android.example.USB_PERMISSION";
 
